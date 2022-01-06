@@ -1,45 +1,40 @@
-
+/* section 1st start................................................. */
 body {
   margin: 0;
-  
-  font-family:Poppins", sans-serif;
-  
+
+  font-family: "Poppins", sans-serif;
 }
 .faxibilety {
   display: flex;
   margin-bottom: 150px;
-  
- 
 }
 
 .half {
   width: 50%;
   padding: 100px;
   margin-left: 20px;
-  
 }
 .half img {
   height: 450px;
   width: 450px;
   border-radius: 100%;
-
 }
-.Bar{
+.Bar {
   border-left: 4px solid #f31008d2;
   padding-left: 5px;
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 60px;
   color: rgb(36, 30, 30);
-  
+  font-weight: 700;
 }
 .orange {
   color: orange;
 }
 .button {
   text-decoration: none;
-  padding: 20px 45px;
+  padding: 15px 30px;
   background-image: linear-gradient(red, yellow);
   border-radius: 7px;
   display: inline-block;
@@ -48,97 +43,107 @@ h1 {
   font-weight: bolder;
   color: antiquewhite;
   font-weight: bold;
-  font-size: 20px;
- 
-  
+  font-size: 25px;
 }
 
-.button:hover{
-background-image: linear-gradient(yellow,red);
-cursor: pointer;
-box-shadow:5px 6px 8px gray;
-
-
+.button:hover {
+  background-image: linear-gradient(yellow, red);
+  cursor: pointer;
+  box-shadow: 5px 6px 8px gray;
+  font-size: 25px;
 }
 .paragraph {
   color: rgb(32, 22, 22);
   text-align: justify;
   word-spacing: 5px;
-  line-height: 30x;
-  font-size: 20px;
+  line-height: 30px;
+  font-size: 24px;
 }
-.coding-im img{
- 
+
+/* section 1st en.................................................. */
+
+/* section 2nd start.................................................. */
+.skill1 {
+  background-image: url(image/Mission.png);
+  background-repeat: no-repeat;
+  background-size: 200px 200px;
+  width: 33%;
+  padding: 10px;
+  border: 20px;
+  margin: 20px 20px;
+  background-color: rgba(119, 155, 202, 0.226);
+  border-radius: 30px;
+  box-sizing: border-box;
+}
+.skill2 {
+  background-image: url(image/Vission.png);
+  background-repeat: no-repeat;
+  background-size: 200px 200px;
+  width: 33%;
+  padding: 20px;
+  border: 20px;
+  margin: 20px 20px;
+  background-color: #f7d8be6b;
+  border-radius: 30px;
+}
+.skill3 {
+  background-image: url(image/Goals.png);
+  background-repeat: no-repeat;
+  background-size: 200px 200px;
+  width: 33%;
+  padding: 20px;
+  border: 20px;
+  margin: 20px 20px;
+  background-color: hsla(39, 65%, 75%, 0.61);
+  border-radius: 30px;
+}
+.my-mission-divided {
+  display: flex;
+}
+
+.size-text {
+  margin-top: 200px;
+  text-align: justify;
+  padding: 10px;
+}
+
+.coding-im img {
   width: 100%;
-  margin:10px;
-
-
+  margin: 10px;
 }
 
-h2{
-        font-size: 30px;
-        font-family: "Poppins", sans-serif;
-        padding: 5px;
-    }
+h2 {
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  padding: 5px;
+}
 
+.Develop-code {
+  margin-top: 150px;
+}
+.project-discus-im img {
+  border-radius: 30px;
+}
+.text-align {
+  text-align: center;
+  font-weight: 700;
+  font-size: 60px;
+}
 
-    .footer-text{
-        text-align: center;
-        padding: 30px;
-        background-color: rgba(236, 224, 224, 0.658);
-
-    }
-    
-    .skill1{
-      background-image: url(image/Mission.png);
-      background-repeat: no-repeat;
-      background-size: 200px 200px;
-      width: 30%;
-      padding: 10px;
-      border:20px;
-      margin: 20px 30px;
-      background-color: rgba(119, 155, 202, 0.226);
-      border-radius: 30px;
-    }
-    .skill2{
-      background-image: url(image/Vission.png);
-      background-repeat: no-repeat;
-      background-size: 200px 200px;
-      width: 30%;
-      padding: 20px;
-      border:20px;
-      margin:20px 30px;
-      background-color: #f7d8be6b;
-      border-radius: 30px;
-    }
-    .skill3{
-      background-image: url(image/Goals.png);
-      background-repeat: no-repeat;
-      background-size: 200px 200px;
-      width: 30%;
-      padding: 20px;
-      border:20px;
-      margin: 20px 30px;
-      background-color: #ddcbcb7e;
-      border-radius: 30px;
-    }
-    .my-mission-divided{
-      display: flex;
-    }
-   
-    .size-text{
-      margin-top: 200px;
-      text-align: justify;
-      padding: 10px;
-    }
-    .Develop-code{
-      margin-top: 150px;
-
-    }
-    .project-discus-im img{
-      border-radius: 30px;
-      
-    }
-    .text-align{
-      text-align: center;
-    }
+.footer-text {
+  text-align: center;
+  padding: 30px;
+  background-color: rgb(12, 2, 2);
+}
+.white {
+  color: white;
+  font-family: inherit; /* sorry i can not found this font-family: ; */
+  font-weight: 700;
+  font-size: 40px;
+}
+.red {
+  color: red; /* sorry i can not found this font-family: ; */
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 40px;
+}
