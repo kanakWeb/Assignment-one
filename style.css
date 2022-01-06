@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   
@@ -13,7 +14,7 @@ body {
 
 .half {
   width: 50%;
-  padding: 20px;
+  padding: 100px;
   margin-left: 20px;
   
 }
@@ -24,7 +25,7 @@ body {
 
 }
 .Bar{
-  border-left: 4px solid #da3b35;
+  border-left: 4px solid #f31008d2;
   padding-left: 5px;
 }
 
@@ -38,13 +39,16 @@ h1 {
 }
 .button {
   text-decoration: none;
-  padding: 15px;
+  padding: 20px 45px;
   background-image: linear-gradient(red, yellow);
   border-radius: 7px;
   display: inline-block;
   margin-top: 20px;
+  margin-bottom: 20px;
   font-weight: bolder;
   color: antiquewhite;
+  font-weight: bold;
+  font-size: 20px;
  
   
 }
@@ -53,6 +57,8 @@ h1 {
 background-image: linear-gradient(yellow,red);
 cursor: pointer;
 box-shadow:5px 6px 8px gray;
+
+
 }
 .paragraph {
   color: rgb(32, 22, 22);
@@ -132,4 +138,7 @@ h2{
     .project-discus-im img{
       border-radius: 30px;
       
+    }
+    .text-align{
+      text-align: center;
     }
