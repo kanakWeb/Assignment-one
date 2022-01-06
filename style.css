@@ -106,30 +106,39 @@ h1 {
   text-align: justify;
   padding: 10px;
 }
+.text-align {
+  text-align: center;
+  font-weight: 700;
+  font-size: 60px;
+}
+/* section 2nd end.................................................. */
+
+/* section 3rd start.................................................. */
 
 .coding-im img {
   width: 100%;
   margin: 10px;
 }
 
+.Develop-code {
+  margin-top: 150px;
+}
+
+/* section 3rd end.................................................. */
+
+/* section 4thrd end.................................................. */
 h2 {
   font-size: 30px;
   font-family: "Poppins", sans-serif;
   padding: 5px;
 }
 
-.Develop-code {
-  margin-top: 150px;
-}
 .project-discus-im img {
   border-radius: 30px;
 }
-.text-align {
-  text-align: center;
-  font-weight: 700;
-  font-size: 60px;
-}
+/* section 4th end.................................................. */
 
+/* section footer start.................................................. */
 .footer-text {
   text-align: center;
   padding: 30px;
@@ -147,3 +156,4 @@ h2 {
   font-weight: 700;
   font-size: 40px;
 }
+/* section footer start.................................................. */
