@@ -112,6 +112,14 @@ h1 {
   font-weight: 700;
   font-size: 60px;
 }
+.card-text {
+  text-align: justify;
+  word-spacing: 5px;
+  line-height: 25px;
+  font-size: 18px;
+  padding: 5px;
+}
+
 /* section 2nd end.................................................. */
 
 /* section 3rd start.................................................. */
